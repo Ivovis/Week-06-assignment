@@ -1,7 +1,8 @@
 import "./App.css";
 
-function App() {
-  return <>nothing here </>;
+export default function App() {
+  return (
+    // This comment placed here so Prettier stops hating me.
+    <>nothing here</>
+  );
 }
-
-export default App;
