@@ -16,7 +16,7 @@
 
 ## Stretch Requirements
 
-    🏹 Use useEffect and the dependancy array to update the images when the user types in an input field.
+    🏹 Use useEffect and the dependency array to update the images when the user types in an input field.
 
     🏹 Set up an Unsplash application that you can fetch from your React app.
 
@@ -27,3 +27,17 @@
 ### checkpoint 1
 
     Basic template and repo created
+
+### checkpoint 2
+
+    Site published to render.com
+
+    Wireframe for mobile, The simplicity of this app means that the desktop just extends the viewing area, but to demonstrate responsiveness, I plan to relocate the thumbnail holder to a different location for different screen sizes.
+
+![Example Image](./misc/React-PhotoApp.png)
+
+###### (If you can read this line then the assignment is incomplete, it will have been submitted early to avoid a zero score, maybe a tornado swept me and my computer away and I am fighting the oompa loompas to get back, wait thats not the wizard of oz ... I plan to remove this comment once I am happy I have completed everything.)
+
+###### Sources:
+
+https://publicdomainvectors.org/en/free-clipart/Cartoon-frog/49778.html Cartoon-Frog.svg
