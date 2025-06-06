@@ -36,6 +36,14 @@
 
 ![Example Image](./misc/React-PhotoApp.png)
 
+### checkpoint 3
+
+    I have the images loading from the API, I have them in a dedicated component that is now rendering in the correct location and is scrolling on a mobile device as I want, although they still look ugly as hell on desktop, seems the way to fix this would be to use/build a gesture component, but thats way out of scope so for now its stays ugly on desktop.
+
+![Example Image](./misc/week6Assign1.png)
+
+    Next up will be adding a callback to the ThumbnailBar component to handle selection changes.
+
 ###### (If you can read this line then the assignment is incomplete, it will have been submitted early to avoid a zero score, maybe a tornado swept me and my computer away and I am fighting the oompa loompas to get back, wait thats not the wizard of oz ... I plan to remove this comment once I am happy I have completed everything.)
 
 ###### Sources:
