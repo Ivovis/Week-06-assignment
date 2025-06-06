@@ -44,6 +44,11 @@
 
     Next up will be adding a callback to the ThumbnailBar component to handle selection changes.
 
+### checkpoint 4
+
+    I had to re-think my whole approach, if I load the images from the API within the thumbnail component I will also need to load them in the main display component, this makes no sense, moving the image data to the top level component (app.jsx) and loading them once there then passing them down to the children seems more efficient, I am pretty much back where I started from a functional standpoint but now I do have currentID updating from mouse clicks and keyboard input (enter and space).
+    I  am currently working on the MainDisplay rendering - this is WIP for now and this checkpoint just marks the ned of the working day!
+
 ###### (If you can read this line then the assignment is incomplete, it will have been submitted early to avoid a zero score, maybe a tornado swept me and my computer away and I am fighting the oompa loompas to get back, wait thats not the wizard of oz ... I plan to remove this comment once I am happy I have completed everything.)
 
 ###### Sources:
