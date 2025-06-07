@@ -18,7 +18,6 @@ export default function App() {
   }, []);
 
   return (
-    // This comment placed here so Prettier stops hating me.
     <>
       <ThumbnailBar imageSet={imageSet} setCurrentID={setCurrentID} />
       <MainDisplay imageSet={imageSet} currentID={currentID} />
