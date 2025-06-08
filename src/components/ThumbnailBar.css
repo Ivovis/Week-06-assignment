@@ -6,24 +6,12 @@
   display: flex;
   text-align: center;
   width: 80%;
-  max-width: 320px;
+  max-width: 420px;
   height: 100px;
   overflow-x: auto;
   overflow-y: hidden;
   gap: 15px;
   border-radius: 10px;
-
   -webkit-overflow-scrolling: touch;
   padding-bottom: 20px;
 }
-
-/* .thumb {
-  background-color: blue;
-  height: 100px;
-  border-radius: 10px;
-} */
-
-/* .title {
-  background-color: red;
-  width: 100px;
-} */

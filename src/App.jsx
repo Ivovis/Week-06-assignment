@@ -2,10 +2,16 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import ThumbnailBar from "./components/ThumbnailBar";
 import MainDisplay from "./components/MainDisplay";
+import HideUI from "./components/HideUI";
 
 export default function App() {
   const [imageSet, setImageSet] = useState([]);
   const [currentID, setCurrentID] = useState(1);
+  const [hideState, setHideState] = useState(true);
+
+  const toggleHideState = () => {
+    setHideState(!hideState);
+  };
 
   useEffect(() => {
     async function getImages() {
@@ -19,8 +25,14 @@ export default function App() {
 
   return (
     <>
-      <ThumbnailBar imageSet={imageSet} setCurrentID={setCurrentID} />
+      <ThumbnailBar
+        className="thumbNails"
+        imageSet={imageSet}
+        setCurrentID={setCurrentID}
+        hidden={hideState}
+      />
       <MainDisplay imageSet={imageSet} currentID={currentID} />
+      <HideUI hideState={hideState} toggleHideState={toggleHideState} />
     </>
   );
 }

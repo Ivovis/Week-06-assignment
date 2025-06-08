@@ -6,7 +6,8 @@
   place-items: center;
 }
 
-/* The below styles were researched on w3schools.com */
+/* The below scrollbar styles were researched on w3schools.com */
+
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
