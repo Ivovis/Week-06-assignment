@@ -1,0 +1,15 @@
+.fullButton {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .fullButton {
+    filter: none;
+  }
+}

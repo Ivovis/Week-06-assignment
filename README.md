@@ -79,8 +79,16 @@
 
     One last thought, the HideUI component is not in the tab list, but I have included alt text, playing safe but not sure it was needed here and last minute I realised that the svg image was in fact black, I use darkmode (Brave browser) and spotted this when doing final tests using light mode is two other browsers (firefox and Chromium) I added styling to HideUI.css to invert the svg image as default, and clear it for dark mode browsers, ensuring to displays white in both.
 
-###### Sources:
+### checkpoint 7
 
-Cartoon-Frog.svg https://publicdomainvectors.org/en/free-clipart/Cartoon-frog/49778.html
-hide icon https://www.svgrepo.com/svg/309609/eye-hide
-unhide icon https://www.svgrepo.com/svg/266947/eye
+    I did a little research on how to switch the browser to fullscreen, and wondered if this could be completely enclosed in a single component, and after a little experimenting I got it working, this commit includes the FullScreen component.
+
+    One option I found was an existing module react-full-screen that can be installed via npm but I did not explore this further.
+
+#### Sources:
+
+- Cartoon-Frog.svg https://publicdomainvectors.org/en/free-clipart/Cartoon-frog/49778.html
+- hide icon https://www.svgrepo.com/svg/309609/eye-hide
+- unhide icon https://www.svgrepo.com/svg/266947/eye
+- exit full screen https://www.svgrepo.com/svg/494797/fullscreen1
+- enter full screen https://www.svgrepo.com/svg/494796/fullscreen2

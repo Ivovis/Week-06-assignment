@@ -3,6 +3,7 @@ import "./App.css";
 import ThumbnailBar from "./components/ThumbnailBar";
 import MainDisplay from "./components/MainDisplay";
 import HideUI from "./components/HideUI";
+import FullScreen from "./components/FullScreen";
 
 export default function App() {
   const [imageSet, setImageSet] = useState([]);
@@ -33,6 +34,7 @@ export default function App() {
       />
       <MainDisplay imageSet={imageSet} currentID={currentID} />
       <HideUI hideState={hideState} toggleHideState={toggleHideState} />
+      <FullScreen />
     </>
   );
 }
